@@ -14,7 +14,7 @@ function sceltaComputer() {
 }
 
 function selezioneForma(sceltaUtente) {
-
+    
     var scelta = sceltaUtente.target.id,
         risultato = $(".risultato h2"),
         computer = sceltaComputer();
@@ -37,26 +37,17 @@ function selezioneForma(sceltaUtente) {
         } else if (scelta === "carta") {
             if (computer === "sasso") {
                 risultato.html(txtVittoria);
-                console.log(computer);
-                return "carta wins";
             } else {
                 risultato.html(txtSconfitta);
-                console.log(computer);
-                return "forbice wins";
             }
         } else if (scelta === "forbice") {
             if (computer === "sasso") {
                 risultato.html(txtSconfitta);
-                console.log(computer);
-                return "sasso wins";
             } else {
                 console.log(computer);
-                risultato.html(txtVittoria);
-                return "forbice wins";
             }
         }
     }
-
     playing(scelta, computer);
 }
 
