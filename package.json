@@ -1,0 +1,16 @@
+{
+  "name": "progettino",
+  "version": "1.0.0",
+  "description": "carta sasso e forbici",
+  "main": "script.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "fra",
+  "license": "ISC"
+}
