@@ -110,22 +110,17 @@
             } else if (scelta === "carta") {
                 if (computer === "sasso") {
                     risultato.html(txtVittoria);
-                    console.log(computer);
-                    return "carta vince";
                 } else {
                     risultato.html(txtSconfitta);
-                    console.log(computer);
-                    return "forbice vince";
                 }
             } else if (scelta === "forbice") {
                 if (computer === "sasso") {
                     risultato.html(txtSconfitta);
-                    console.log(computer);
-                    return "sasso vince";
+
                 } else {
                     console.log(computer);
                     risultato.html(txtVittoria);
-                    return "forbice vince";
+
                 }
             }
         }

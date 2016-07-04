@@ -44,7 +44,7 @@ function selezioneForma(sceltaUtente) {
             if (computer === "sasso") {
                 risultato.html(txtSconfitta);
             } else {
-                console.log(computer);
+                risultato.html(txtVittoria);
             }
         }
     }
