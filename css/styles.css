@@ -1,10 +1,11 @@
+
 .block {
     height: 45em;
     border-left:1px solid lightgray;
     border-right:1px solid lightgray;
-    /*background: #f6f8f9; !* Old browsers *!*/
-    /*background: -moz-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); !* FF3.6-15 *!*/
-    /*background: -webkit-linear-gradient(top, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); !* Chrome10-25,Safari5.1-6 *!*/
+    background: #f6f8f9; /* Old browsers */
+    background: -moz-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
 
 }
 .title {
@@ -32,3 +33,19 @@ button {
     -moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75) !important;
     box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75) !important;
 }
+.risultato{
+    height: 120px;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+/*.vittoria-computer{*/
+    /*background: red;*/
+/*}*/
+/*.vittoria-computer{*/
+    /*background: lightseagreen;*/
+/*}*/

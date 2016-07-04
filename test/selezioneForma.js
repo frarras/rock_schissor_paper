@@ -5,11 +5,12 @@ var assert = chai.assert;
 
 describe('selezioneForma', function() {
 
-    it('deve prendere il valore dal DOM', function() {
-        var forma = selezioneForma(event);
-        // var sceltaUtente;
-        // var sceltaComputer;
-        assert.equal(forma);
+    it('Il parametro deve essere una stringa', function() {
 
+        var scelta = ["sasso", "carta", "sasso"];
+        scelta.forEach(function (sceltasingola) {
+            assert.typeOf(sceltasingola, "string");
+        })
     });
+    
 });

@@ -57,6 +57,6 @@ function selezioneForma(sceltaUtente) {
         }
     }
 
-    playing(scelta, sceltaComputer());
+    playing(scelta, computer);
 }
 

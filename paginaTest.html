@@ -61,21 +61,21 @@
                 if (computer === "sasso") {
                     risultato.html(txtVittoria);
                     console.log(computer);
-                    return "carta wins";
+                    return "carta vince";
                 } else {
                     risultato.html(txtSconfitta);
                     console.log(computer);
-                    return "forbice wins";
+                    return "forbice vince";
                 }
             } else if (scelta === "forbice") {
                 if (computer === "sasso") {
                     risultato.html(txtSconfitta);
                     console.log(computer);
-                    return "sasso wins";
+                    return "sasso vince";
                 } else {
                     console.log(computer);
                     risultato.html(txtVittoria);
-                    return "forbice wins";
+                    return "forbice vince";
                 }
             }
         }
@@ -90,11 +90,13 @@
 <script>
 
         function playing(scelta, computer) {
-
+            computer = sceltaComputer();
+            var risultato = $(".risultato h2");
+            var computer = sceltaComputer();
             $('.img_scelta__computer').attr('src', "image/"+computer+".jpg");
 
             var txtVittoria="Vittoria!! " + scelta + " batte " + computer,
-                    txtSconfitta="Hai perso mi dispiace!! " + scelta + " perde contro " + computer;
+                txtSconfitta="Hai perso mi dispiace!! " + scelta + " perde contro " + computer;
 
             if (scelta === computer) {
                 var txt="PAREGGIO!";
@@ -109,21 +111,21 @@
                 if (computer === "sasso") {
                     risultato.html(txtVittoria);
                     console.log(computer);
-                    return "carta wins";
+                    return "carta vince";
                 } else {
                     risultato.html(txtSconfitta);
                     console.log(computer);
-                    return "forbice wins";
+                    return "forbice vince";
                 }
             } else if (scelta === "forbice") {
                 if (computer === "sasso") {
                     risultato.html(txtSconfitta);
                     console.log(computer);
-                    return "sasso wins";
+                    return "sasso vince";
                 } else {
                     console.log(computer);
                     risultato.html(txtVittoria);
-                    return "forbice wins";
+                    return "forbice vince";
                 }
             }
         }
